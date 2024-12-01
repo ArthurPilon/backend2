@@ -151,5 +151,3 @@ exports.modifyBook = (req, res, next) => {
     .then(() => res.status(200).json({ message: 'Livre modifié !' }))
     .catch(error => res.status(400).json({ error }));
 };
-
-// test
